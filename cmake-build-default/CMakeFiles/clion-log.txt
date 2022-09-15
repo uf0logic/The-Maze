@@ -1,0 +1,4 @@
+"/Users/uf0logic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" "-DCMAKE_MAKE_PROGRAM=/Users/uf0logic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/uf0logic/Documents/Coding/C:C++/Game1 -B /Users/uf0logic/Documents/Coding/C:C++/Game1/cmake-build-default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/uf0logic/Documents/Coding/C:C++/Game1/cmake-build-default
