@@ -1,4 +1,38 @@
-"/Users/uf0logic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/uf0logic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/uf0logic/Documents/Coding/C:C++/Game1 -B /Users/uf0logic/Documents/Coding/C:C++/Game1/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/uf0logic/Documents/Coding/C:C++/Game1/cmake-build-debug
+"/Users/uf0logic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/uf0logic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/uf0logic/Documents/Coding/C:C++/Game1 -B /Users/uf0logic/Documents/Coding/C:C++/Game1/cmake-build-debug
+-- The C compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - broken
+CMake Error at /Users/uf0logic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "/usr/bin/cc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/uf0logic/Documents/Coding/C:C++/Game1/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/Users/uf0logic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/ninja/mac/ninja cmTC_14ec8 && [1/2] Building C object CMakeFiles/cmTC_14ec8.dir/testCCompiler.c.o
+    FAILED: CMakeFiles/cmTC_14ec8.dir/testCCompiler.c.o 
+    /usr/bin/cc    -o CMakeFiles/cmTC_14ec8.dir/testCCompiler.c.o -c '/Users/uf0logic/Documents/Coding/C:C++/Game1/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c'
+    xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:6 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/uf0logic/Documents/Coding/C:C++/Game1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/uf0logic/Documents/Coding/C:C++/Game1/cmake-build-debug/CMakeFiles/CMakeError.log".
+
+Cannot get compiler information:
+	Cannot run program "/Library/Developer/CommandLineTools/usr/bin/cc" (in directory "/Users/uf0logic/Documents/Coding/C:C++/Game1/cmake-build-debug"): error=2, No such file or directory

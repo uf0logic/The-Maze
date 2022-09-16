@@ -1,3 +1,0 @@
-/Users/uf0logic/Documents/Coding/C:C++/Game1/cmake-build-debug/CMakeFiles/Game1.dir
-/Users/uf0logic/Documents/Coding/C:C++/Game1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/uf0logic/Documents/Coding/C:C++/Game1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
