@@ -94,7 +94,7 @@ void controller() {
 
 void draw() {
     clear(); // Clear the screen
-
+    border('#','#','#','#','#','#','#','#');
     mvprintw(yPos, xPos, "@");
     mvprintw(yEnemy, xEnemy, "E");
 
